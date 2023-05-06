@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Presentation</title>
+    <link rel="stylesheet" type="text/css" href="css/pr.css">
+</head>
+<body>
+    <div class="page" style="width: 800px;height: 90%vh;">
+        <h1>Training Performance</h1>
+        <p> 
+            <h2>Siamese Model</h2>
+            <img src="Reports/loss_curve.png" style="max-width: 100%; max-height: 100%;" alt="Training Monitor">
+            <a>You can see model training loss vs validation loss<br>
+            As i monitor the model using callback function till 5 epoch.<br>
+            model trained for 50 epochs</a>
+            <li>Note:As computation(Gpu,Ram) required a lot for such model (this takes 13 gb Ram,used Kaggle Free Tpu4*2)<br>
+            we takes only 100 unique and 6 IMage created using Data augmentation for each image,so total 700 image
+            for training.</li>
+
+        </p>
+    </div>
+    <div class="bt">
+        <a href="arch.html" class="button1">Prev</a>
+        <a href="page5.html" class="button1">Next</a>
+    </div>
+</body>
+</html>
